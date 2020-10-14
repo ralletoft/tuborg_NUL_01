@@ -31,30 +31,49 @@
      justify-content: center;
      background-color: white;
      max-width: 1200px;
-     margin: 0 auto;
+     margin: 0 auto 50px;
  }
 
  footer img {
      max-width: 300px;
-     margin: 50px 0 0 0;
+     margin: 0 0 0 0;
  }
 
  section {
-     margin: 50px 0;
+     margin: 0 0 50px 0;
  }
 
- #splash {
-     margin: 0;
-     padding: 50px 0 50px 0;
-     background-color: #fac177;
-     justify-content: center;
-     align-self: center;
+ #headercontent {
+     height: 72px;
      display: flex;
+     max-width: 1200px;
+     margin: 0 auto;
+     background-color: white;
+ }
+
+ #headerlogo {
+     align-self: center;
+     font-family: "bree-serif", serif;
      font-weight: 600;
      font-size: 2.5rem;
+     color: #093a82;
+     padding-left: 20px;
  }
 
- h1 {
-     font-family: "bree-serif", serif;
-     color: #093a82;
+ #bar_1 {
+     background-color: #fac177;
+     height: 20px;
+     width: 1200px;
+ }
+
+ #bar_2 {
+     background-color: #bee0d9;
+     height: 20px;
+     width: 1200px;
+ }
+
+ #bar_3 {
+     background-color: #093a82;
+     height: 20px;
+     width: 1200px;
  }
