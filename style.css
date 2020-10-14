@@ -1,0 +1,48 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+ img {
+     width: 100%;
+ }
+
+ main {
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+
+
+
+ /** Video **/
+ iframe {
+     width: 100vw;
+     height: 56.25vw;
+     max-width: 1200px;
+     max-height: 675px;
+ }
+
+
+ /**** footer ****/
+ footer {
+     display: flex;
+     justify-content: center;
+     background-color: white;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ footer img {
+     max-width: 300px;
+     margin: 50px 0 0 0;
+ }
+
+ section {
+     margin: 0 auto;
+ }
+
+ #splash {
+     background-image: url()
+ }
